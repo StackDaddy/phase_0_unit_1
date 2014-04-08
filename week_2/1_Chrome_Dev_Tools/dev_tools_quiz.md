@@ -2,7 +2,7 @@
 
 <!-- Modify the Markdown to include your answers. Don't delete the questions! -->
 
-##QUIZ
+##QUIZZ
 * Explain which tabs support the following actions and how.
   * Realtime editing of HTML and CSS 
    If look at the very top of your computer and find the button with the three lines stacked on top of eachother, click on that, and then go to tools, and then developer tools.  In order to do realtime editing of HTML and CSS have open the elements tab.  When highlighting a specific elemtent, the corresponding CSS will appear.  
