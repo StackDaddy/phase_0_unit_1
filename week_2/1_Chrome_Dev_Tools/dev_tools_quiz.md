@@ -5,14 +5,20 @@
 ##QUIZ
 * Explain which tabs support the following actions and how.
   * Realtime editing of HTML and CSS 
+   If look at the very top of your computer and find the button with the three lines stacked on top of eachother, click on that, and then go to tools, and then developer tools.  In order to do realtime editing of HTML and CSS have open the elements tab.  When highlighting a specific elemtent, the corresponding CSS will appear.  
   * Javascript Debugging
-  * Performance Optimization 
+    The console tab supports Javascript debugging.  It allows you to run tests and the tool wiill break down where the errros are occuring.  
+  * Performance Optimization
+   The Network tab supports this.  It shows you how much time it takes for the html, css, and javascript tabs to load.  You can also use page speed which will run several uatomated tests.  
 
 * What's the quick key for your OS to spawn the Dev Tools inspector?
+ option, command, I
 
 * Go to http://www.postmachina.com/ and analyze and tweak this nicely designed page.
   * What is the current background color for the page?  (Surprisingly, it's not just black!)
+  #0b0f11
   * Tweak the background color to white.
+  
   * Tweak the height of the side bar that contains the logo.  Shrink it down to 85px.
   * Roll over the navigation links.  When you hover over them, they dissapear.  Let's change the hover color to black instead.
   * Now take a screenshot of your new (and maybe not so improved) design.  It should match this screenshot: http://postimg.org/image/5ak1jkpl5/
