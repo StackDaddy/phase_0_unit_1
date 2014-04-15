@@ -116,6 +116,18 @@ this.attackXY(49,67);
 this.attackXY(47,53);
 
 
+What is this referring to? Think programming-wise rather than in the terms of the game.
+
+This is refering to an object.  We use the object to call methods with the dot notation.  
+What does the () do in JavaScript?
+
+The () in JS is the syntax for a method.  Even if there are no parameters for the method, we must still stupe out the () in order for proper syntax and to call the method on the object. 
+
+What is the point of the semicolons?
+
+The point of the semicolons is to separate lines of code.  It is puntuation.  
+
+
 
 
 
@@ -127,3 +139,5 @@ this.attackXY(47,53);
  
 // Reflection:
 // Write your reflection here.
+
+This was not one of my favorite excersises.  On one hand I can see how it may have been like a wax on wax off sort of excersize, but I just feel like their was so much toying around for very little differentiating concepts.  However, it did certainly reinforce dot notation, calling methods on objects.  
