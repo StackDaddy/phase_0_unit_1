@@ -15,37 +15,74 @@ var terah = {
 /* Pseudocode Section - write pseudocode for each challenge below.
 1. Define a variable adam and use object literal notation to assign this variable 
    the value of a JavaScript Object object with no properties.
+   pseudocode-- define a variable adam and set it equal to an empty object. 
+   
+   var adam = {};
 
 2. Give adam a name property with the value "Adam".
-
+pseud-- insert a property and a value into the empty object bracket.
+var Adam = {name: 'Adam'}
 3. Add a spouse property to terah and assign it the value of adam.
+First write the object terah and then brackets "spouse" equal to a new value adam.
+
 
 4. Change the value of the terah weight property to 125.
-
+start with object terah and then access the property weight by brackets and then an assignments statement. 
+terah["weight"] = 125;
 5. Remove the eyeColor property from terah.
+I am not sure if there exists a method to completly remove something so I will try setting eyeColor to undefined.
+terah["eyeColor"] = undefined;
 
 6. Add a spouse property to adam and assign it the value of terah.
+Same bracket notation that I have been using.  
+adam["spouse"] = terah;
 
 7. Add a children property to terah and and use object literal notation to assign 
    this variable the value of a JavaScript Object object with no properties
+   Here, I will want to again use the bracket notation and then set it equal to an empty object.  
+   terah["children"] = {};
 
 8. Add a carson property to the value of the terah children property and assign it 
   the value of an object with the property name with a value of "Carson".
-
+Alrighty, this is a mouthful.  Here I will want to access the value of terah;s children by using dot notation,
+and then setting an assignment statement by setting it equal to a object.  
+terah.children["carson"] = {name: "Carson"};
 9. Add a carter property to the value of the terah children property and assign it 
    the value of an object with the property name with a value of "Carter".
-
+  Same deal here.  Just different info.
+  terah.children["carter"] = {name: "Carter"};
 10. Add a colton property to the value of the terah children property and assign it 
     the value of an object with the property name with a value of "Colton".
-
+Again, same deal here.
+terah.children["colton"] = {name: "Colton"};
 11. Add a children property to adam and assign it the value of terah children.
-
+Ok, so here we will want to create a new property through bracket notation and then use an assignment statement.
+We will access terah's children by using dot notation.  
+adam["children"] = terah.children
 
 */
 
 // __________________________________________
 // Write your code below.
-
+var terah = {
+  name: "Terah",
+  age: 32,
+  height: 66,
+  weight: 130,
+  hairColor: "brown",
+  eyeColor: "brown"
+}
+var adam = {};
+var Adam = {name: 'Adam'};
+terah["spouse"] = adam;
+terah["weight"] = 125;
+terah["eyeColor"] = undefined;
+adam["spouse"] = terah;
+terah["children"] = {};
+terah.children["carson"] = {name: "Carson"};
+terah.children["carter"] = {name: "Carter"};
+terah.children["colton"] = {name: "Colton"};
+adam["children"] = terah.children;
 
 
 
