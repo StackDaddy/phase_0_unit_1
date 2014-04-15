@@ -58,6 +58,65 @@ this.moveUp();
 this.moveRight();
 this.moveRight();
 
+5)  It's a trap
+   pseudocode:  Move down twice, taunt, move up fourtimes 
+   
+   this.moveDown();
+this.moveDown();
+this.moveDown();
+this.say("Come get Me!");
+this.moveUp();
+this.moveUp();
+this.moveUp();
+6) Taunt
+pseudocode:  Talk mad shit 
+
+this.say("what");
+this.say("wack");
+this.say("bring it");
+this.say("biaatch");
+
+7) Cowardly Taunt 
+
+ Move the guy somwhat close to enemies, taunt, hover back.
+ 
+ this.moveXY(50, 16);
+this.moveXY(63, 20);
+this.moveXY(70, 10);  // This is a safe spot.
+
+this.say("I can lure them in here.");
+
+this.moveXY(51, 34);
+this.say("y'all suck");
+this.moveXY(69,13);
+
+ 8) Commanding followers
+ pseudocode:  Give an inspiring speech, lol.  Say follow.  March forward.  Attack.  
+ 
+ this.say("My dearest comrads, today is the day that we fight for our freedom.  See those trolls over their, they fight for money and riches.  But we! Free Men! We fight for us.  Follow Me!");
+this.moveXY(55,37);
+this.say("attack");
+
+Mobile Artilery Complete
+
+pseudocode
+
+Move into firing position, kill all little guys with first shot, then reposition fire for big guy movement.  
+
+this.moveXY(30, 26);  // Move into range
+this.attackXY(46, 5);  // Shoot once in the middle of the ogres
+
+// If they survive a hit, ogres retaliate!
+// Larger ogres take more than one hit...
+// So, position and aim carefully.
+this.moveXY(47,43);
+this.attackXY(69, 56);
+this.attackXY(57, 48);
+this.attackXY(49,67);
+this.attackXY(47,53);
+
+
+
 
 
  
