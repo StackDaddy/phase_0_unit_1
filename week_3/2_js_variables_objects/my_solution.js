@@ -4,14 +4,18 @@
 
 
 // Pseudocode
-// 
-// 
-// 
-// 
+// Declare a secret number and set it equal to a number object 
+// Declare a string variable password and set it equal to a string of characters with quotations aroud it
+// Declare a variable, allowedIn and set it equal to a boolean
+// Declare an array, members.  The first name John and the fourth element Mary.  
 
 
 // __________________________________________
 // Write your code below.
+var secretNumber = 7
+var password = "just open the door"
+var allowedIn = false;
+members = ["John", 4, 5, "Mary"];
 
 
 
