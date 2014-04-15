@@ -92,7 +92,10 @@ adam["children"] = terah.children;
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
+// I definitely liked this challenge a little bit more.  Slightly mor echallenging.  It really forced me to understand  
+// object jargon.  For example, property, value.  And im not sure if this is what it is called, but it forced me to underderstand 
+// how nesting works within javascript object and how to access them.  This is something I struggled with at first, but after reviewing 
+// some of the notes I was able to get passed the section.  
 // 
 // 
 // 
