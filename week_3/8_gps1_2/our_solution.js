@@ -44,9 +44,14 @@ shooterMcGavin.quote === "Just stay out of my way... or you'll pay. Listen to wh
 // 4. "SHOW 'EM OFF!"
 
 
+
+
 clientele
 
 // ** BONUS **
 
 
 //  Your Reflection:
+
+I thought this was a great GPS.  It certainly reinforced how to make objects in JS.  I liked how we constructed objects 
+with literal and constructor notation.  Emily was very helpful, and Yariv was rgeat to work with.  
