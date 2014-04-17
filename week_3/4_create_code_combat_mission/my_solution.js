@@ -1,4 +1,3 @@
-
 // Your mission description:
 // The BACONATOR is hungry for his favorite snack. Bacon!
 // His roommate has conveniently just made some. Help the
@@ -137,7 +136,11 @@ baconator.eatBacon();
 
 
 // Reflection
-// 
+// I thought this was a great excersize.  It was very helpful to have to think out a real situation and then create 
+// code to properly reflect the situation.  It was gret practice creating objects, especially creating methods within objects.
+//I was a little confused with what this. means within an object, but I am pretty sure it means it is just refering to a local variable.
+//I worked with a person on my accountabily group for this project, which I think was a good idea because it made us 
+// way more creative.
 // 
 // 
 // 
