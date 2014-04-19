@@ -6,11 +6,11 @@ var array = [];
 
 var counter = prompt("How many numbers do you want to enter?");
 
-var counter = Number(counter);
+counter = Number(counter);
 
-while (typeof counter != "number") 
+if (typeof counter != "number") 
 {
-  var counter = prompt("Please enter a number:");
+	counter = prompt("Please enter a number:");
 }
 
 for (x = 0; x < counter; x++){
