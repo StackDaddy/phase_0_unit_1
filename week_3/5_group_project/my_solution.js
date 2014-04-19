@@ -6,7 +6,7 @@ var array = [];
 
 var counter = prompt("How many numbers do you want to enter?");
 
-var counter = parseInt(counter);
+var counter = Number(counter);
 
 while (typeof counter != "number") 
 {
