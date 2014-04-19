@@ -1,27 +1,24 @@
-//I want to ask a person how many numbers they want to enter, and once they tell me how many, I would like ot ask
-// them which numbers.  I will then store these numbers.  If a person tells me something other than a number, 
-//I would like to remind them to tell me a number.  
+//Here I want to get a list of numbers from somebody.  While doing so, I want to make sure that the input is actually a number.
 
 var array = [];
 
 var counter = prompt("How many numbers do you want to enter?");
 
-counter = Number(counter);
-
-if (typeof counter != "number") 
-{
-	counter = prompt("Please enter a number:");
+while (isNaN(counter)) {
+    counter = prompt("Please enter a number:");
 }
+
+
 
 for (x = 0; x < counter; x++){
 	var userInput = prompt("Enter a number:");
-
-	userInput = Number(userInput);
-
-	if (typeof userInput === "number"){
-		array.push(userInput);
-	}
+	while (isNaN(userInput)) {
+        userInput = prompt("Please enter a number:");
+    }
+	array.push(Number(userInput));
+	
 }
+console.log(array);
 
 // Here I would like to calculate the sum of all the numbers tht were inputed. 
 
