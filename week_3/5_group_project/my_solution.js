@@ -54,3 +54,25 @@ var mean = function (array){
 console.log(sum(array));
 console.log(median(array));
 console.log(mean(array));
+
+
+
+Reflection:
+
+1) What was this experience like?
+
+	I enjoyed this experience very much.  It was really the first time that I had to work together with a group of people 
+	on a very technical problem.  When I first received my part, which was refactoring the code, I was lile, wow, what is going on here.
+	I definitely needed to reach out to the person before me and just casually speak about what was going on.  Definitely made me appreciate
+	the use of non-technical comments.  
+2) Was your group successful in passing the tests?
+	Yes, our group did pass all of the tests.  
+3) What did you learn about writing user stories, pseudocoding, writing code, refactoring, etc.?
+	I did.  And working with other people I think each of these parts are even more necessary.  When building programs it is very important 
+	to understand someones casual thought process from the very beginning to the very last technical detail.  Without knowong this
+	you are kinda just a clueless bystander on the sidelines.  I learned that usr stories should be very simple.  They should simply state what
+	the user should get out of the experience.  Pseudocode shouldbe more details and try to encompass each facet of the code.  
+	Writing the code should try to be as clean and as dry as possible.  Refactoring, which was my part of the project, I tried to think, ok, 
+	what input could possibly cause this code to go worng. 
+
+
